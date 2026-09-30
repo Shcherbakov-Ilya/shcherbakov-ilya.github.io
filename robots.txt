@@ -1,0 +1,48 @@
+# robots.txt — shcherbakov-ilya.github.io
+# Сайт открыт для всех поисковых систем и ИИ-ассистентов.
+
+User-agent: *
+Allow: /
+
+# Поисковые системы
+User-agent: Yandex
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ChatGPT (OpenAI): поиск, открытие ссылок пользователей, обучение
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Claude (Anthropic)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google Gemini
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://shcherbakov-ilya.github.io/sitemap.xml
